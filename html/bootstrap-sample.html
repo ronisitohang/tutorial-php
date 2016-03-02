@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="http://192.168.33.105/tutorial/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="container" >
+
+    <h1>Hello, world!</h1>
+
+
+
+<!--Brand Images-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="...">
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!--Image Shapes-->
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Small_logo_splash.png" alt="..." class="img-rounded">
+<img src="https://en.opensuse.org/images/4/49/Amarok-logo-small.png" alt="..." class="img-circle">
+<img src="http://quesa.sourceforge.net/other/files/logo_small.jpg" alt="..." class="img-thumbnail"><br>
+
+<!--Tabs-->
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul><br>
+
+
+
+<!--Badges-->
+<ul class="nav nav-pills" role="tablist">
+  <li role="presentation" class="active"><a href="#">Home <span class="badge">100</span></a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages <span class="badge">10</span></a></li>
+</ul><br>
+
+
+
+    <!--Dropup Variation-->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-default">Dropup</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </ul>
+</div>
+<br>
+
+<!--Inserted text-->
+<ins>This line of text is meant to be treated as no longer accurate.</ins></br>
+
+<!--Alignment classes-->
+<p class="text-left">Left aligned text.</p>
+<p class="text-center">Center aligned text.</p>
+<p class="text-right">Right aligned text.</p>
+<p class="text-justify">Justified text.</p>
+<p class="text-nowrap">No wrap text.</p></br>
+
+<!--Transformation Classes-->
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">Capitalized text.</p></br>
+
+<!--Basic abbreviation-->
+<abbr title="attribute">HELLO</abbr></br>
+
+<!--Block quote-->
+<blockquote class="blockquote-reverse">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote></br>
+
+
+<!--list-->
+<ul>
+  <li>...</li>
+</ul>
+<ol>
+  <li>...</li>
+</ol>
+
+
+<ul class="list-inline">
+  <li>qwerty</li>
+  <li>qwerty</li>
+  <li>qwerty</li>
+
+</ul> </br>
+
+
+<dl class="dl-horizontal">
+  <dt>qwerty</dt>
+  <dd>qwertyqwertyqwerty</dd>
+</dl> </br>
+
+
+<var>y</var> = <var>m</var><var>x</var> + <var>b</var> </br>
+
+<!--Table-->
+<div class="table-responsive">
+<table class="table table-condensed">
+    <tr class="active">
+    <th>#</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>User Name</th>
+    </tr>
+    <tr class="succes">
+    <td>1</td>
+    <td>Mark</td>
+    <td>Otto</td>
+    <td>@mdo</td>
+    </tr>
+
+     <tr class="warning">
+    <td>2</td>
+    <td>Jacob</td>
+    <td>Thornton</td>
+    <td>@fat</td>
+    </tr>
+
+     <tr class="danger">
+    <td>3</td>
+    <td>Larry</td>
+    <td>The Bird</td>
+    <td>@twitter</td>
+    </tr>
+</table>
+</div></br>
+
+
+
+<!--Forms-->
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form></br>
+
+
+<!--In Line Forms-->
+<form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  </div>
+  <button type="submit" class="btn btn-default">Send invitation</button>
+</form></br>
+
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">$</div>
+      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+      <div class="input-group-addon">.00</div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Transfer cash</button>
+  </form></br>
+
+<!--Horizontal Form-->
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form></br>
+
+<!--Text Area-->
+<textarea class="form-control" rows="3"></textarea></br>
+
+<!--Static Control-->
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">email@example.com</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+</form><br>
+
+<!--Validation States-->
+<div class="form-group has-success">
+  <label class="control-label" for="inputSuccess1">Input with success</label>
+  <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+  <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+</div>
+<div class="form-group has-warning">
+  <label class="control-label" for="inputWarning1">Input with warning</label>
+  <input type="text" class="form-control" id="inputWarning1">
+</div>
+<div class="form-group has-error">
+  <label class="control-label" for="inputError1">Input with error</label>
+  <input type="text" class="form-control" id="inputError1">
+</div>
+<div class="has-success">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="checkboxSuccess" value="option1">
+      Checkbox with success
+    </label>
+  </div>
+</div>
+<div class="has-warning">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="checkboxWarning" value="option1">
+      Checkbox with warning
+    </label>
+  </div>
+</div>
+<div class="has-error">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="checkboxError" value="option1">
+      Checkbox with error
+    </label>
+  </div>
+</div><br>
+
+<!--Option-->
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button><br>
+
+
+
+<!--BUTTON-->
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+</button><br>
+
+
+
+
+<!--EXAMPLES-->
+
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Alamat E-mail Salah
+</div><br>
+
+<!--Dropdowns-->
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li class="disabled"><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div> 
+
+
+
+
+<!--Segmented Buttons-->
+<div class="input-group">
+  <div class="input-group-btn">
+    <!-- Button and dropdown menu -->
+  </div>
+  <input type="text" class="form-control" aria-label="...">
+</div><br>
+
+<div class="input-group">
+  <input type="text" class="form-control" aria-label="...">
+  <div class="input-group-btn">
+    <!-- Button and dropdown menu -->
+  </div>
+</div><br>
+
+<!--Custom content-->
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwZOIMOVZb8kRvcrHULM3ES7l0mcx94e-KHeFYczJHI6BAEWG3SQ" alt="...">
+      <div class="caption">
+        <h3>Forza Milan Campione</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Add</a> <a href="#" class="btn btn-default" role="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<!--Alerts-->
+<div class="alert alert-success" role="alert"> Well Done!</div>
+<div class="alert alert-info" role="alert">Heads Up!</div>
+<div class="alert alert-warning" role="alert">Warning!</div>
+<div class="alert alert-danger" role="alert">Oh Snap!</div> <br>
+
+
+<!--Progress Bar-->
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+    90%
+  </div>
+</div><br>
+
+<!--Media Heading-->
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://cdn.detik.net.id/libs/dc/v1/image/favicon_detikcom.png" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div>
+
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">Custom Content</p>
+  </a>
+</div>
+
+
+
+
+
+<!--Aligned links-->
+<nav >
+  <ul class="pager">
+    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav><br>
+
+<!--pagination-->
+<nav >
+  <ul class="pagination pagination-lg">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://192.168.33.105/tutorial/bootstrap-3.3.6-dist/js/bootstrap.min.js "></script>
+  </body>
+</html>
+
