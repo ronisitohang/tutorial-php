@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $i=1;
-$n=5;
+$n=10;
 $k=$i;
 
 while ($i<=$n){
